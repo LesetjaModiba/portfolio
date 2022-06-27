@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>Portfolio website</title>
+    <meta name="author" content="Lesetja Modiba">
+    <meta name="keywords" content="HTML, Lesetja, Cijow, Modiba">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="./JS/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/be361c6523.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <h2><span class="logo-span">Portfo</span>lio</h2>
+            <ul class="menu">
+                <i class="fa-solid fa-circle-half-stroke" id="theme-icon" onclick="changeTheme()"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#bio">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+           <a href="" class="btn">Download CV</a> 
+ 
+
+            <label for="toggle" class="toggle-label">&#9776;</label>
+            <input type="checkbox" name="toggle" id="toggle" onclick="if(this.checked){isChecked()} else {unCheck()}">
+        </nav>
+        <div class="container">
+            <div class="thumbnail-div"><img class="thumb" src="./Assets/Images/LesetjaThumnail.jpg" alt=""> </div>
+        </div>
+        <!-- About -->
+        <div class="bio-container" id="bio">
+            
+            <div class="bio">
+
+            </div>
+            <div class="photo">
+                <img class="pic" src="./Assets/Images/PSX_20220529_203900.jpg" alt="">
+            </div>
+        </div>
+        <!-- Services -->
+        <div class="services-container" id="services">
+            <div class="title"><h2>Our Services</h2></div>
+            <div class="box">
+                <div class="card">
+                    <i class="fa-solid fa-chart-simple" id="icon"></i>
+
+                    </i>
+                    <h4>Web development</h4> 
+                    <div class="detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ad consequuntur exercitationem voluptatem laudantium. <br></br>
+                         <button class="btn-low">Read more</button>
+                    </div>
+
+                </div>
+                <div class="card" >
+                     <i class="fa-solid fa-bell" id="icon"></i>
+                    <h4>Application Development</h4> 
+                    <div class="detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ad consequuntur exercitationem voluptatem laudantium.<br></br>
+                        <button class="btn-low">Read more</button>
+                    </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-computer" id="icon"></i>
+                <h4>IT Support</h4> 
+                <div class="detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ad consequuntur exercitationem voluptatem laudantium. <br></br>
+                    <button class="btn-low">Read more</button>
+                </div>
+        </div>
+        
+    </div>
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <div class="title"><h2>Contact Us</h2></div>
+        <h2>Let me get you a beautiful website</h2>
+       <div class="contact-details">
+
+        <div class="flayout">
+            <h2>Get in touch</h2>
+            <form action="https://formspree.io/f/xknypowp"
+            method="POST">
+            <input type="text" placeholder="Name(s)" name="name(s)">
+             <br></br>
+
+            <input type="text" placeholder="Surname" name="surname">
+              <br></br>
+            
+              <input type="email" placeholder="Your email" name="email">
+            <br></br>
+
+ 
+              <textarea name="message" placeholder="Message"></textarea>
+            <br></br>
+            <!-- your other form fields go here -->
+            <button type="submit" id="sentBtn">Send</button>
+          </form></div>
+          
+          
+              
+                  <iframe width="50px" height="230px" 
+                  src="https://maps.google.com/maps?q=tut%20polokwane&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                  </iframe>
+       </div>
+
+        <button class="btn-Hire">Hire Me</button>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Get in touch</h2>
+        <div class="social">
+
+        </div>
+    </div>
+</body>
+
+</html>
